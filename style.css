@@ -1,0 +1,129 @@
+@import url(https://db.onlinewebfonts.com/c/62fa13c8d6a7597eef48bdd7e57de4a3?family=Heart+Breaking+Bad);
+/*Fonte Breaking Bad*/
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+/*Fonte San Francisco*/
+/*Reset Básico*/
+* {
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /*Estilização do corpo da página*/
+    text-align: center;
+    background-color: #12140F;
+    color: white;
+    font-family: 'SF Pro Display', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+header {
+    background-color: #032202;
+}
+
+nav a {
+    /*Estilização dos links de navegação*/
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    /*Deixa os itens lado a lado*/
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #40794f;
+    border-radius: 10px;
+    /*Deixa os cantos arredondados*/
+    transition: background-color 0.2s, font-size 0.2s;
+    /*Transição suave para as mudanças de cor e tamanho*/
+}
+
+nav a:hover {
+    /*Efeito de hover para os links de navegação*/
+    background-color: #5e7a66;
+    font-size: 15.2px;
+}
+
+.card {
+    /*Article dos cards dos personagens*/
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #31553B;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    /*Ajusta a imgame sem distorcer*/
+}
+
+#personagens {
+    /*Estilização da seção de personagens*/
+    background-image: url(./Imagens/Banner.png);
+    background-size: contain;
+}
+
+#personagens h2 {
+    /*Estilização do título da página*/
+    font-family: "Heart Breaking Bad";
+    font-size: 50px;
+    src: url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot");
+    src: url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.svg#Heart Breaking Bad")format("svg");
+
+}
+
+/*Alterar o tamanho da imagem: background-size: cover; para cobrir toda a área, ou background-size: contain; para ajustar a imagem sem cortar. pode se também utilizar o background-repeat. para alterar a posição, utilizamos background-position*/
+
+nav {
+    /*Estilização da barra de navegação*/
+    margin: 15px;
+}
+
+#secao-temporadas {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#secao-temporadas h2 {
+    font-family: "Heart Breaking Bad";
+    font-size: 50px;
+    src: url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot");
+    src: url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/62fa13c8d6a7597eef48bdd7e57de4a3.svg#Heart Breaking Bad")format("svg");
+}
+
+.temporadas {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    padding-top: 10px;
+    background-color: #31553B;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.temporadas img {
+    width: 90%;
+    height: 67%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #032202;
+    padding: 10px;
+    margin-top: 20px;
+}

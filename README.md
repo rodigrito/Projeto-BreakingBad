@@ -1,5 +1,6 @@
-# CSS na prática 👨‍💻
+# CSS na prática! 👨‍💻
 Colocando as habilidades de estilização CSS na prática.
+Tema escolhido: Breaking Bad.
 
 # Atividade de CSS
 
